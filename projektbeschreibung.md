@@ -16,4 +16,4 @@
 
 
 
-!<img src="Skizze1.JPEG" width="50%" height="50%" />
+!<img src="skizze 1.jpeg" width="50%" height="50%" />
