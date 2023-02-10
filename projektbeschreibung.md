@@ -16,4 +16,4 @@
 
 
 
-!(skizze 1.jpeg)
+!<img src="Skizze1.JPEG" width="50%" height="50%" />
