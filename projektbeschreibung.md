@@ -18,8 +18,8 @@
 
 !<img src="skizze 1.jpeg" width="50%" height="50%" />
 
-##Kostenabschätzung
-#### Insgesamt: 43,10.- exklusive Arduino 
+## Kostenabschätzung
+### Insgesamt: 43,10.- exklusive Arduino 
   #### -Ventil
   #### -Schlauch
   #### -Grosser Knopf
