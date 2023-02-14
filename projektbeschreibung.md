@@ -1,12 +1,11 @@
 # Projektbeschreibung
 
-## Abstarct:
-#### Ein Wassernapf für den Hund, der automatisch vom Hund ausgelöst werden kann, dass der Hund selber wasser nachfüllen kann.
+## Abstract:
+#### Ein Wassernapf für den Hund, der automatisch vom Hund ausgelöst werden kann, dass der Hund selbst Wasser nachfüllen kann.
 
 ## Projekt im Detail:
-#### Ein Wassernapf mit einem verbauten Knopf der mit dem Arduino verbunden ist. Wenn der Knopf betätigt wird wird durch einen Schlauch, der mit einer Wasserquelle verbunden ist, Wasser in den Napf gepumpt. Wenn das Wasser einen gewissen Punkt überschreitet wird kein neues Wasser mehr gepumpt und das Wasser wird blockiert, dass es keine Überschwemmung gibt.
-#### Alle oben genannten Punkte sind ein muss, aber was man optional noch machen könnte wäre den Napf verschönern, ob jetzt mit einem Design oder Farbe, dass  nicht einfach ein langweiliger Metallnapf rumsteht.
-
+#### Ein Wassernapf mit einem verbauten Knopf, der mit dem Arduino verbunden ist. Wenn der Knopf betätigt wird, wird durch einen Schlauch, der mit einer Wasserquelle verbunden ist, Wasser in den Napf gepumpt. Wenn das Wasser einen gewissen Punkt überschreitet, wird kein neues Wasser mehr gepumpt und das Wasser wird blockiert, damit es keine Überschwemmung gibt. Es werden zwei Leiter benutzt, die einen Kreislauf bilden, der überprüft wird und wenn der Kreislauf geschlossen ist, kann kein Wasser kommen.
+#### Alle oben genannten Punkte sind ein Muss, aber was man optional noch machen könnte, wäre den Napf zu verschönern, ob jetzt mit einem Design oder Farbe, damit nicht einfach ein langweiliger Metallnapf rumsteht.
 
 ## Zeitplan
 | QW2 | QW3 | QW4 | QW5 | QW6 | QW7 | QW8 |
