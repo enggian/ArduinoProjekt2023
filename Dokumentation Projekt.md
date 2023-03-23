@@ -15,14 +15,17 @@ Grundsätzlich war es mir möglich alle geplanten Funktionen umzusetzen. Man kan
 Das wichtigste Teil ist das Relais. Ohne das Relais würde nichts funktionieren, da das Relais dafür sorgt, dass alles so zusammenspielen kann wie es sollte.
 Das Ventil und der Knopf spielen beide natürlich auch eine wichtige Rolle, da ohne diese beiden Teile auch nichts funktioniert hätte, aber beide haben nicht so eine bindende Funktion wie das Relais.
 Der Arduino Micro ist ein zentrales Teil, da ohne den Arduino das Projekt auch nicht zustande gekommen wäre. Der Arduino übernimmt die meiste Arbeit im ganzen Projekt.
-(Breadboard Bild)
+
+<img src="DokumentationBild1.jpeg" width="60%" height="30%" />
 
 #### Software
 Die Software funktioniert wie folgt; Alle wichtigen Pins werden am Anfang festgelegt. Danach wird einfach überprüft ob der Button gedrückt wird und ob der Sensor (die beiden Kabel im Napf) leiten oder nicht, wenn sie nicht leiten und man drückt kommt Wasser raus und wenn sie leiten kommt kein Wasser.
 
 ## Entwicklung Hardware
 #### 07.02.2023
-Am 07.02.2023 habe ich mir nur Gedanken gemacht, was ich überhaupt machen will. An diesem Nachmittag bin ich nur zum Entschluss gekommen, was ich machen will. Eine kleine und auch gleichzeitig die einzige Skizze habe ich gemacht. (Skizze1)
+Am 07.02.2023 habe ich mir nur Gedanken gemacht, was ich überhaupt machen will. An diesem Nachmittag bin ich nur zum Entschluss gekommen, was ich machen will. Eine kleine und auch gleichzeitig die einzige Skizze habe ich gemacht. 
+
+<img src="skizze 1.jpeg" width="50%" height="50%" />
 
 #### 14.02.2023
 Ich habe mir überlegt welche Teile ich brauche und für was. Das Problem war, dass ich mir nicht genügend Gedanken gemacht habe und mir zuerst falsche Teile zusammen gesucht habe. An diesem Tag habe ich noch nicht mal die Bestellliste abgeschickt, weil ich nicht fertig war.
@@ -31,16 +34,24 @@ Ich habe mir überlegt welche Teile ich brauche und für was. Das Problem war, d
 Eine Woche und ein Gespräch mit Herrn Saxer für ein EF-Wechsel später habe ich die Teile nun bestellt. In der letzten Woche und auch in dieser war der Selbstzweifel sehr hoch, die Uhr hat getickt und ich hatte Garnichts.
 
 #### 28.02.2023
-Die Teile sind endlich angekommen, jedoch das Relais was ich bestellt habe, war das Falsche. Ich habe ein 1-Wege-Solid-Relais bestellt, was unnütz war, da es nicht das machte, was das Relais eigentlich machen sollte, weil es der Falsche Typ Relais war. An diesem Nachmittag habe ich die 3 Lektionen nur verschwendet, da ich die ganzen 3 Lektionen damit beschäftigt war das Ventil zum Laufen zu bringen, aber es war nicht mal möglich, weil es das Falsche Relais war. (Relais Bild)
+Die Teile sind endlich angekommen, jedoch das Relais was ich bestellt habe, war das Falsche. Ich habe ein 1-Wege-Solid-Relais bestellt, was unnütz war, da es nicht das machte, was das Relais eigentlich machen sollte, weil es der Falsche Typ Relais war. An diesem Nachmittag habe ich die 3 Lektionen nur verschwendet, da ich die ganzen 3 Lektionen damit beschäftigt war das Ventil zum Laufen zu bringen, aber es war nicht mal möglich, weil es das Falsche Relais war. 
+
+<img src="Relais-bild.jpeg" width="50%" height="50%" />
+     ^ falsches Relais
 
 #### 07.03.2023
 An diesem Nachmittag habe ich am Knopf gearbeitet. Dieser Nachmittag war der unproduktivste Nachmittag, weil ich innerhalb von 3 Lektionen nur 4 Zeilen Code geschrieben habe und den Knopf richtig verkabelt habe.
 
 #### 14.03.2023
-An diesem Nachmittag habe ich die Ventil-Schaltung mit einem Transistor geschalten. Es hat nicht funktioniert. An diesem Tag habe ich das richtige Relais bestellt; ein 1-Kanal Relais. An diesem Nachmittag habe ich Hardware und Code technisch nicht geschafft, jedoch war dieser Tag ein Erfolg, da ich das richtige Relais bestellt habe. (Richtiges Relais Bild)
+An diesem Nachmittag habe ich die Ventil-Schaltung mit einem Transistor geschalten. Es hat nicht funktioniert. An diesem Tag habe ich das richtige Relais bestellt; ein 1-Kanal Relais. An diesem Nachmittag habe ich Hardware und Code technisch nicht geschafft, jedoch war dieser Tag ein Erfolg, da ich das richtige Relais bestellt habe. 
+
+<img src="Richtiges-Relais-Bild.jpeg" width="50%" height="50%" />
+    ^ richtiges Relais
 
 #### 21.03.2023
-An diesem Nachmittag habe ich angefangen mit dem richtigen Relais zu arbeiten, ich habe alles auf das Breadboard gesteckt und alles hat perfekt funktioniert. Die ganze Hardware hat auf dem Breadboard einwandfrei funktioniert. (Breadboard Bild)
+An diesem Nachmittag habe ich angefangen mit dem richtigen Relais zu arbeiten, ich habe alles auf das Breadboard gesteckt und alles hat perfekt funktioniert. Die ganze Hardware hat auf dem Breadboard einwandfrei funktioniert. 
+
+<img src="BBILD.jpeg" width="50%" height="50%" />
 
 #### 22.03.2023
 An diesem Nachmittag habe ich alles zusammengelötet und mein Gehäuse gebaut. Meinen Code habe ich vom 21.03 zum 22.03 über die Nacht geschrieben. Als ich alles zusammengelötet habe hat sich das Relais selbstständig gemacht. Warum? Das konnte ich nach 2 Stunden testen und Spannung messen nicht herausfinden.
@@ -57,6 +68,7 @@ Und der Wille war auch ein grosses Problem. Ich war extrem demotiviert, weil es 
 
 #### Was würdest du anders machen?
 Ich würde ein mehr Code-basiertes Projekt machen, weil mir das Schreiben des Codes deutlich besser gelungen ist und ich eigentlich nur Probleme an der Hardware hatte.
+Ich würde auf jedenfall auch mehr Bilder machen. Leider habe ich diese im Verlauf des Projektes vergessen.
 
 #### Wie könnte ich das Projekt verbessern?
 Die Hardware verschönern und den Weg, um sicher zu gehen, dass der Napf nicht überlauft zu verschönern; mit einem Messgerät das den Wasserstand messen kann oder einer Wage.
