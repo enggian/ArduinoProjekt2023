@@ -1,10 +1,10 @@
 # Dokumentation – EF Projekt
-## Ein Wassernapf, der vom Hund aufgefüllt wird
+### Ein Wassernapf, der vom Hund aufgefüllt wird
 
-### Abstract
+## Abstract
 Mein Projekt ist ein Wassernapf für den Hund, der vom Hund selbst aufgefüllt werden kann. Durch einen Knopf kann der Hund Wasser in den Napf füllen lassen und der Code sorgt dafür, dass es keine Überschwemmung gibt und das Ventil sich früh genug selber schließt.
 
-### Projekt im Detail 
+## Projekt im Detail 
 #### Beschreibung 
 Über einen Knopfdruck kann man ein Ventil öffnen, welches mit einem großen Wasserkanister verbunden ist. Das Wasser fließt in einen modifizierten Napf, der dafür sorgt, dass kein Wasser überschwappt. Dies funktioniert wie folgt; Im Napf sind zwei Kabel, welche getrennt voneinander sind, wenn der Wasserstand über beide Kabel gestiegen ist, leiten sie und der Arduino wird dazu beauftragt dafür zu sorgen, dass kein Wasser mehr durchgepumpt wird. Das Ventil wird durch ein Relais gesteuert, welches dem Ventil ermöglicht mit 12V angesteuert zu werden. Der Arduino Micro, den ich in diesem Projekt benutzt habe, ist nicht in der Lage so viel Volt auszusenden.
 
@@ -20,7 +20,7 @@ Der Arduino Micro ist ein zentrales Teil, da ohne den Arduino das Projekt auch n
 #### Software
 Die Software funktioniert wie folgt; Alle wichtigen Pins werden am Anfang festgelegt. Danach wird einfach überprüft ob der Button gedrückt wird und ob der Sensor (die beiden Kabel im Napf) leiten oder nicht, wenn sie nicht leiten und man drückt kommt Wasser raus und wenn sie leiten kommt kein Wasser.
 
-### Entwicklung Hardware
+## Entwicklung Hardware
 #### 07.02.2023
 Am 07.02.2023 habe ich mir nur Gedanken gemacht, was ich überhaupt machen will. An diesem Nachmittag bin ich nur zum Entschluss gekommen, was ich machen will. Eine kleine und auch gleichzeitig die einzige Skizze habe ich gemacht. (Skizze1)
 
@@ -48,7 +48,7 @@ An diesem Nachmittag habe ich alles zusammengelötet und mein Gehäuse gebaut. M
 #### 23.03.2023
 An diesem Tag habe ich alles nochmal neu zusammengelötet und es hat funktioniert so wie ich es wollte. Leider habe ich während dem Arbeiten am 22.03 und am 23.03 vergessen Bilder zu machen.
 
-# Diskussion und Reflexion
+## Diskussion und Reflexion
 
 #### Was hat gut/schlecht funktioniert?
 Der Code hat sehr gut funktioniert, das einzige was mir noch Unsicherheit bereitet ist, da ich selbst nach austesten nie garantiert sicher war ob ich den Button-Pin == LOW oder == HIGH machen sollte. Manchmal hat er, wenn ich ihn nicht gedrückt habe im Serial.Print 1 angegeben und manchmal 0.
@@ -61,7 +61,7 @@ Ich würde ein mehr Code-basiertes Projekt machen, weil mir das Schreiben des Co
 #### Wie könnte ich das Projekt verbessern?
 Die Hardware verschönern und den Weg, um sicher zu gehen, dass der Napf nicht überlauft zu verschönern; mit einem Messgerät das den Wasserstand messen kann oder einer Wage.
 
-#### Code
+## Code
 
 ```cpp
 int buttonPin = 7;    // Pin, an dem der Knopf angeschlossen ist
